@@ -62,4 +62,6 @@ git checkout main
 
 # Add Items to Sparse Checkout
 echo "{current_directory_path_to_item}" >> .git/info/sparse-checkout
+# Or
+vim .git/info/sparse-checkout
 ```
